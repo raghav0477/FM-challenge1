@@ -74,9 +74,9 @@ ul{
     justify-content: center;
     position: fixed;
     left: 0;
-    bottom: 0;   
+    bottom: 0;    
 }
-@media screen and (min-width: 480px) and (max-width: 600px){
+@media screen and (min-width: 320px) and (max-width: 420px){
     body{
         background-size: cover,cover;
         background-position: left -17rem top -15rem,right -18rem bottom -35rem;
@@ -87,11 +87,86 @@ ul{
         /* display: none; */
     }
     .card{
-        width: 67.8vw;
+        width: 71vw;
+        height: 320px;
+    }
+    .card-main {
+        width: 59vw;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+    span{
+        font-size: 17px;
+    }
+    img{
+        border: 2px solid #ffffff;
+    }
+    .name{
+        padding: 0;
+    }
+    .in1{
+        margin: 0.4rem;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 620px){
+    body{
+        background-size: cover,cover;
+        background-position: left -17rem top -15rem,right -18rem bottom -35rem;
+    }
+    
+    .container{
+        width: 100vw;
+        /* display: none; */
+    }
+    .card{
+        width: 68vw;
         height: 415px;
     }
     .card-main {
-        width: 60vw;
+        width: 61.5vw;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    span{
+        font-size: 22px;
+    }
+    .in1{
+        margin: 0.4rem;
+    }
+}
+@media screen and (min-width: 620px) and (max-width: 720px){
+    body{
+        background-size: cover,cover;
+        background-position: left -17rem top -15rem,right -18rem bottom -35rem;
+    }
+    
+    .container{
+        width: 100vw;
+        /* display: none; */
+    }
+    .card{
+        width: 67.9vw;
+        height: 415px;
+    }
+    .card-main {
+        width: 61.5vw;
     }
     h1{
         font-size: 20px;
@@ -110,7 +185,7 @@ ul{
         margin: 0.4rem;
     }
 }
-@media screen and (min-width: 601px) and (max-width: 720px){
+@media screen and (min-width: 720px) and (max-width: 1120px){
     body{
         background-size: cover,cover;
         background-position: left -17rem top -15rem,right -18rem bottom -35rem;
@@ -121,11 +196,11 @@ ul{
         /* display: none; */
     }
     .card{
-        width: 67.8vw;
-        height: 415px;
+        width: 55.5vw;
+        height: 385px;
     }
     .card-main {
-        width: 60vw;
+        width: 50.8vw;
     }
     h1{
         font-size: 20px;
