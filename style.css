@@ -17,9 +17,9 @@ body{
     background: url(./images/bg-pattern-card.svg) no-repeat top;
     background-size: cover;
     position: relative;
-    width: 500px;
-    height: 500px;
-    border-radius: 2rem;
+    width: 20vw;
+    height: 22vw;
+    border-radius: 0.8rem;
     box-shadow:
        0 -3em 3em rgba(0,0,0,0.1),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
@@ -29,9 +29,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.2rem;
-    width: 462px;
-    border-radius:0 0 2rem 2rem;
+    width: 20vw;
+    border-radius:0 0 0.8rem 0.8rem;
     position: absolute;
     bottom: 0em;
     background-color: #ffffff;
@@ -50,7 +49,6 @@ span{
 .name{
     display: flex;
     align-items: center;
-    padding: 0.5rem;
 }
 .info{
     display: flex;
@@ -62,7 +60,11 @@ span{
     align-items: center;
     margin: 1rem;
 }
-h3{
+.info-head{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.infotype{
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -91,15 +93,15 @@ ul{
         height: 320px;
     }
     .card-main {
-        width: 59vw;
+        width: 71vw;
     }
-    h1{
+    .info-head{
         font-size: 15px;
     }
     h2{
         font-size: 12px;
     }
-    h3{
+    .infotype{
         font-size: 10px;
         letter-spacing: 0;
     }
@@ -128,19 +130,19 @@ ul{
     }
     .card{
         width: 68vw;
-        height: 415px;
+        height: 62vh;
     }
     .card-main {
-        width: 61.5vw;
+        width: 68vw;
     }
     
-    h1{
+    .info-head{
         font-size: 20px;
     }
     h2{
         font-size: 18px;
     }
-    h3{
+    .infotype{
         font-size: 15px;
         letter-spacing: 0;
     }
@@ -159,22 +161,21 @@ ul{
     
     .container{
         width: 100vw;
-        /* display: none; */
     }
     .card{
-        width: 67.9vw;
-        height: 415px;
+        width: 65vw;
+        height: 65vh;
     }
     .card-main {
-        width: 61.5vw;
+        width: 65vw;
     }
-    h1{
-        font-size: 20px;
+    .info-head{
+        font-size: 22px;
     }
     h2{
         font-size: 18px;
     }
-    h3{
+    .infotype{
         font-size: 15px;
         letter-spacing: 0;
     }
@@ -196,19 +197,20 @@ ul{
         /* display: none; */
     }
     .card{
-        width: 55.5vw;
-        height: 385px;
+        width: 55vw;
+        height: 62vh;
     }
     .card-main {
-        width: 50.8vw;
+        width: 55vw;
     }
-    h1{
+    .info-head{
         font-size: 20px;
     }
+   .info{gap: 2rem;}
     h2{
         font-size: 18px;
     }
-    h3{
+    .infotype{
         font-size: 15px;
         letter-spacing: 0;
     }
