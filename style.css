@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: left -10em top 149%,right -19em bottom 150%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #1B98A6;
+}
+.card{
+    background: url(./images/bg-pattern-card.svg) no-repeat top;
+    background-size: cover;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 2rem;
+    box-shadow:
+       0 -3em 3em rgba(0,0,0,0.1),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    transform: translateY(50%);      
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+    width: 462px;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0em;
+    background-color: #ffffff;
+}
+img{
+    align-items: center;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    transform: translate(8%,-44%);
+}
+span{
+    margin-left: 0.7rem;
+    opacity: 0.5;
+    font-size: 35px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.info{
+    display: flex;
+}
+.in1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+h3{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+ul{
+    padding: 2rem;
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;   
+}
+@media screen and (min-width: 480px) and (max-width: 600px){
+    body{
+        background-size: cover,cover;
+        background-position: left -17rem top -15rem,right -18rem bottom -35rem;
+    }
+    
+    .container{
+        width: 100vw;
+        /* display: none; */
+    }
+    .card{
+        width: 67.8vw;
+        height: 415px;
+    }
+    .card-main {
+        width: 60vw;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    span{
+        font-size: 22px;
+    }
+    .in1{
+        margin: 0.4rem;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 720px){
+    body{
+        background-size: cover,cover;
+        background-position: left -17rem top -15rem,right -18rem bottom -35rem;
+    }
+    
+    .container{
+        width: 100vw;
+        /* display: none; */
+    }
+    .card{
+        width: 67.8vw;
+        height: 415px;
+    }
+    .card-main {
+        width: 60vw;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    span{
+        font-size: 22px;
+    }
+    .in1{
+        margin: 0.4rem;
+    }
+}
