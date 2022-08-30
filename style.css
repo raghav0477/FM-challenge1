@@ -31,7 +31,7 @@ body{
     align-items: center;
     padding: 1.2rem;
     width: 462px;
-    border-radius: 2rem;
+    border-radius:0 0 2rem 2rem;
     position: absolute;
     bottom: 0em;
     background-color: #ffffff;
@@ -72,7 +72,7 @@ ul{
 .attribution{
     display: flex;
     justify-content: center;
-    position: fixed;
+     position: fixed;
     left: 0;
     bottom: 0;    
 }
@@ -84,14 +84,14 @@ ul{
     
     .container{
         width: 100vw;
-
+        /* display: none; */
     }
     .card{
         width: 71vw;
         height: 320px;
     }
     .card-main {
-        width: 61vw;
+        width: 59vw;
     }
     h1{
         font-size: 15px;
