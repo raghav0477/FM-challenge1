@@ -84,14 +84,14 @@ ul{
     
     .container{
         width: 100vw;
-        /* display: none; */
+
     }
     .card{
         width: 71vw;
         height: 320px;
     }
     .card-main {
-        width: 59vw;
+        width: 61vw;
     }
     h1{
         font-size: 15px;
