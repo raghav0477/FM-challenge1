@@ -1,11 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+
 }
 .container{
     display: flex;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 body{
     background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
@@ -44,7 +46,7 @@ img{
 span{
     margin-left: 0.7rem;
     opacity: 0.5;
-    font-size: 35px;
+    font-size: 30px;
 }
 .name{
     display: flex;
@@ -61,11 +63,11 @@ span{
     margin: 1rem;
 }
 .info-head{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5rem;
 }
 .infotype{
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 ul{
@@ -78,7 +80,7 @@ ul{
     left: 0;
     bottom: 0;    
 }
-@media screen and (min-width: 320px) and (max-width: 420px){
+@media screen and (max-width: 568px){
     body{
         background-size: cover,cover;
         background-position: left -17rem top -15rem,right -18rem bottom -35rem;
@@ -86,7 +88,6 @@ ul{
     
     .container{
         width: 100vw;
-        /* display: none; */
     }
     .card{
         width: 71vw;
@@ -118,7 +119,7 @@ ul{
         margin: 0.4rem;
     }
 }
-@media screen and (min-width: 420px) and (max-width: 620px){
+/* @media screen and (min-width: 420px) and (max-width: 620px){
     body{
         background-size: cover,cover;
         background-position: left -17rem top -15rem,right -18rem bottom -35rem;
@@ -126,7 +127,6 @@ ul{
     
     .container{
         width: 100vw;
-        /* display: none; */
     }
     .card{
         width: 68vw;
@@ -152,8 +152,8 @@ ul{
     .in1{
         margin: 0.4rem;
     }
-}
-@media screen and (min-width: 620px) and (max-width: 720px){
+} */
+/* @media screen and (min-width: 620px) and (max-width: 720px){
     body{
         background-size: cover,cover;
         background-position: left -17rem top -15rem,right -18rem bottom -35rem;
@@ -185,23 +185,22 @@ ul{
     .in1{
         margin: 0.4rem;
     }
-}
-@media screen and (min-width: 720px) and (max-width: 1120px){
+} */
+@media screen and (max-width: 1440px){
     body{
         background-size: cover,cover;
         background-position: left -17rem top -15rem,right -18rem bottom -35rem;
     }
     
     .container{
-        width: 100vw;
-        /* display: none; */
+        width: 100%;
     }
     .card{
-        width: 55vw;
-        height: 62vh;
+        width: 300px;
+        height: 350px;
     }
     .card-main {
-        width: 55vw;
+        width: 300px;
     }
     .info-head{
         font-size: 20px;
